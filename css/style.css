@@ -1,1 +1,148 @@
 /* YeyeYeee código aquí */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3,
+h4, h5, h6, p, blockquote, pre, a, abbr, acronym,
+address, big, cite, code, del, dfn, em, font, img, ins,
+kbd, q, s, samp, small, strike, strong, sub, sup, tt,
+var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+/*INDEX INICIO*/
+*{
+	padding: 0;
+	margin: 0;
+}
+#contenedor-inicio{
+	height: 100%;
+	background-color: #414143;
+}
+#contenedor-logo{
+	padding-top: 100px;
+	padding-bottom: 10px;
+	margin-left: 20%;
+	align-items: center;
+}
+#contenedor-logo h1{
+	color: #f4b200;
+	font-weight: bold;
+	font-size:35px;
+}
+#img-logo{
+	width: 150px;
+}
+#contenedor-inputs{
+	margin-left: 16px;
+}
+#contenedor-inputs input{
+	border-style: none;
+	width: 280px;
+	height: 50px;
+	padding: 10px;
+	margin:0;
+	background-color: white;
+}
+#contenedor-inputs button{
+	width: 300px;
+	height: 50px;
+	border-style: none;
+	background-color:#f4b200;
+	color: #414143; 
+}
+#contenedor-inputs p{
+	color: white;
+	padding-top: 7px;
+}
+#no-cuenta{
+	color: white;
+	font-size: 17px;
+}
+#registrate{
+	font-weight:bold;
+	color: #f4b200;
+}
+#div-registrar{
+	display: inline-block;
+	padding-top: 30px;
+}
+
+/* INDEX2*/
+
+nav{
+	background-color:#414143; 
+}
+#navnav{
+	text-align: center;
+}
+#navnav h1{
+	padding-top: 15px;
+	font-size: 20px;
+}
+.menu{
+	font-size:20px;
+	color: white;
+	background-color: transparent;
+	border-style: none;
+}
+.menu:hover{
+	background-color: transparent;
+}
+#botones-opciones{
+	padding-top: 200px;
+}
+#botones-opciones button{
+	background-color: #f4b200;
+	color: white;
+	padding: 6px;
+	width: 300px;
+	border-style: none;
+	margin:8px;
+	font-size: 20px;
+}
+
+/*INDEX3*/
+#fondo-img{
+	background-color: #f4b200;
+}
+#img-usuario{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	margin-left: 25%;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+#ingres-tarjeta{
+	width: 300px;
+}
+#tarjetas{
+	background-color: #dcdddf;
+	height: 370px;
+
+}
+#boton-tarjeta{
+	width: 300px;
+	background-color: #f4b200;
+	color: white;
+	font-size: 17px;
+	padding: 5px;
+	border-style: none;
+}
+#preguntas{
+	background-color: #f4b200;
+	text-align: center;
+	padding-top: 80px;
+	height: 220px;
+}
+#preguntas h1{
+	color: white;
+	font-size: 26px;
+	font-weight: bold;
+}

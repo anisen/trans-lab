@@ -23,17 +23,30 @@ $(document).ready(function() {
   
   $(".button-collapse").sideNav();
   /*sidnav*/
+
   /*menu desplegable*/
   $('.collapsible').collapsible();
   /*menu desplegable*/
+
 /*DOPDAWN 1*/
  $('.dropdown-button').dropdown('open');
   $('.dropdown-button').dropdown('close');
 /*DOPDAWN1*/
+
 /*DOPDAWN 2*/
  $('.dropdown-buttonDos').dropdown('open');
   $('.dropdown-buttonDos').dropdown('close');
 /*DOPDAWN 2*/
+
+/* IMPRIMIR TARJETA*/
+$("#boton-tarjeta").click(function(e){
+	var tarjeta= $("#ingres-tarjeta").val();
+   $(".acomulador-tarjeta").append('<h2 id="h2-tarjetas">'+tarjeta+'</h2>')
+});
+  
+
+
+/* IMPRIMIR TARJETA*/
   /*API*/
   $("#boton-saldo").click(function(i) {
   	i.preventDefault();

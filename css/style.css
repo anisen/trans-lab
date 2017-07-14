@@ -155,6 +155,11 @@ nav{
 	height: 370px;
 
 }
+#h2-tajetas{
+	margin: 10px;
+	font-size: 20px;
+	text-align: center;
+}
 #boton-tarjeta{
 	width: 300px;
 	background-color: #f4b200;

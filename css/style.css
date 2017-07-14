@@ -135,6 +135,7 @@ nav{
 	padding: 5px;
 	border-style: none;
 }
+/*INDEX 4*/
 #preguntas{
 	background-color: #f4b200;
 	text-align: center;
@@ -145,4 +146,34 @@ nav{
 	color: white;
 	font-size: 26px;
 	font-weight: bold;
+}
+/*INDEX5*/
+#saldo{
+	height: 570px;
+	background-color: #dcdddf;
+
+}
+#saldo button{
+	background-color: #f4b200;
+	width: 200px;
+	padding: 5px;
+	margin-left: 20%;
+	border-style: none;
+}
+#saldo input{
+	margin-top: 20px;
+}
+
+/*INDEX6*/
+#calcular{
+	background-color: #dcdddf;
+	height: 580px;
+}
+#boton-calcular{
+	width: 300px;
+	padding:5px;
+	background-color: #f4b200;
+	color: white;
+	border-style: none;
+	margin-top: 20px;
 }

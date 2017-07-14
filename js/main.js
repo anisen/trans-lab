@@ -17,8 +17,9 @@ $(document).ready(function() {
   //$(".button-collapse").hide();
   $(".button-collapse").click(function() {
     //$(".button-collapse").show();
-  });
+});
   
   $(".button-collapse").sideNav();
 
+  $('.collapsible').collapsible();
 });

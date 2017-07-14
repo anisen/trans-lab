@@ -157,6 +157,11 @@ nav{
 	font-size: 26px;
 	font-weight: bold;
 }
+.h3-preguntas{
+	color: blue;
+	font-size: 15px;
+	font-weight: bold;
+}
 /*INDEX5*/
 #saldo{
 	height: 570px;

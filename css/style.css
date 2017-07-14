@@ -26,8 +26,8 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	background-color: #414143;
 }
 #contenedor-logo{
-	padding-top: 100px;
-	padding-bottom: 10px;
+	padding-top: 70px;
+	padding-bottom: 40px;
 	margin-left: 20%;
 	align-items: center;
 }
@@ -38,6 +38,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 }
 #img-logo{
 	width: 150px;
+	padding-left: 35px;
 }
 #contenedor-inputs{
 	margin-left: 16px;
@@ -50,12 +51,16 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	margin:0;
 	background-color: white;
 }
-#contenedor-inputs button{
+#boton-iniciosesion{
 	width: 300px;
 	height: 50px;
 	border-style: none;
 	background-color:#f4b200;
-	color: #414143; 
+	text-align: center;
+	padding-top: 10px;
+}
+#boton-iniciosesion a{
+	color: #414143;
 }
 #contenedor-inputs p{
 	color: white;
@@ -131,9 +136,16 @@ nav{
 }
 #correo-usuario{
 	width: 300px;
-	height: 30px;
+	height: 50px;
 	background-color: white;
 	border-radius: 6px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+#correo-usuario p{
+	font-size: 20px;
 }
 #ingres-tarjeta{
 	width: 300px;
@@ -184,6 +196,10 @@ nav{
 #saldo input{
 	margin-top: 20px;
 }
+#select-saldo{
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
 #resultado-saldo{
 	width: 300px;
 	height: 100px;
@@ -215,4 +231,7 @@ nav{
 	color: white;
 	border-style: none;
 	margin-top: 20px;
+}
+select{
+	display: block;
 }

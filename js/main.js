@@ -26,7 +26,14 @@ $(document).ready(function() {
   /*menu desplegable*/
   $('.collapsible').collapsible();
   /*menu desplegable*/
-
+/*DOPDAWN 1*/
+ $('.dropdown-button').dropdown('open');
+  $('.dropdown-button').dropdown('close');
+/*DOPDAWN1*/
+/*DOPDAWN 2*/
+ $('.dropdown-buttonDos').dropdown('open');
+  $('.dropdown-buttonDos').dropdown('close');
+/*DOPDAWN 2*/
   /*API*/
   $("#boton-saldo").click(function(i) {
   	i.preventDefault();

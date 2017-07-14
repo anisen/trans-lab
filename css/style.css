@@ -19,6 +19,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 *{
 	padding: 0;
 	margin: 0;
+	font-family: 'Lato', sans-serif;
 }
 #contenedor-inicio{
 	height: 100%;
@@ -74,16 +75,20 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 }
 
 /* INDEX2*/
-
+.side-nav li>a>i, .side-nav li>a>[class^="mdi-"], .side-nav li>a li>a>[class*="mdi-"], .side-nav li>a>i.material-icons{
+	color: #f4b200;
+}
 nav{
 	background-color:#414143; 
 }
-#navnav{
+.navnav{
 	text-align: center;
 }
-#navnav h1{
+.h1-nav{
 	padding-top: 15px;
 	font-size: 20px;
+	padding-left: 35%;
+	width:250px;
 }
 .menu{
 	font-size:20px;
@@ -97,14 +102,19 @@ nav{
 #botones-opciones{
 	padding-top: 200px;
 }
-#botones-opciones button{
+.conten-a{
 	background-color: #f4b200;
 	color: white;
-	padding: 6px;
 	width: 300px;
-	border-style: none;
+	text-align: center;
+	height: 40px;
+	border-radius: 5px;
 	margin:8px;
+	padding-top: 8px;
 	font-size: 20px;
+}
+.a-opciones{
+	color: white;
 }
 
 /*INDEX3*/

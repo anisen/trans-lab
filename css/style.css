@@ -184,7 +184,25 @@ nav{
 #saldo input{
 	margin-top: 20px;
 }
-
+#resultado-saldo{
+	width: 300px;
+	height: 100px;
+	background-color: #f4b200;
+	text-align: center;
+	margin-top: 60px;
+}
+#negro-saldo{
+	width: 100%;
+	height: 30px;
+	color: white;
+	background-color: black;
+}
+#saldoRes{
+	padding-top: 15px;
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+}
 /*INDEX6*/
 #calcular{
 	background-color: #dcdddf;

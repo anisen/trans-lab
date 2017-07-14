@@ -39,7 +39,7 @@ $(document).ready(function() {
   	})
   	.done(function(x) {
   		console.log(x.saldoTarjeta);
-        $('#vacio').append('<p>'+x.saldoTarjeta+'</p>')
+        $('#vacio').append('<div id="resultado-saldo"><p id="negro-saldo">SALDO TARJETA</p><p id="saldoRes">'+x.saldoTarjeta+'</p></div>')
   	})
   	.fail(function() {
   		console.log("error");
